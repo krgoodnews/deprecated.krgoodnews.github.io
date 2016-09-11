@@ -1,2 +1,2 @@
-# krgoodnews.github.com
+# krgoodnews.github.io
 github Pages
