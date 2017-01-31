@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>비밀을 제외한 모든 것</title>
+    <description>공유할 수 있는 모든 것을 공유하겠다.</description>
+    <link>http://krgoodnews.github.io</link>
+    <atom:link href="http://krgoodnews.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>앱 개발 준비물</title>
+        <description>&lt;h2 id=&quot;앱-설명&quot;&gt;앱 설명&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;맛집 리뷰를 올리고 공유하는 SNS&lt;/li&gt;
+  &lt;li&gt;사용언어: Swift3&lt;/li&gt;
+  &lt;li&gt;개발방향: 나의 코드는 최대한 적게, 최대한 라이브러리의 비중을 높인다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;라이브러리&quot;&gt;라이브러리&lt;/h2&gt;
+&lt;h3 id=&quot;ui&quot;&gt;UI&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;A+ ~ F 등급 매길 때 사용할 Circular slider
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/HamzaGhazouani/HGCircularSlider&quot;&gt;HGCircularSlider&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;My Collection에서 지도를 위로 드래그하면 맵이 줄어들거나 사라지고 리스트가 나옴
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/Vinodh-G/ParallaxTableViewHeader&quot;&gt;ParallaxTableViewHeader&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/hanton/YXTPageView&quot;&gt;YXTPageView&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/gskbyte/GSKStretchyHeaderView&quot;&gt;GSKStretchyHeaderView&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Photo Browser(맨 위에 큰 사진 있고, 나머지 리스트들이 아래에 작게 보이게)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/ytakzk/Fusuma&quot;&gt;Fusuma&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;네트워크&quot;&gt;네트워크&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Alamofire&lt;/li&gt;
+  &lt;li&gt;Moya: 어떻게 쓰는건지 모른다. 근데 쓰면 좋다고들 한다.&lt;/li&gt;
+  &lt;li&gt;SwiftyJSON&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;필요한-기술&quot;&gt;필요한 기술&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.naver.com/PostView.nhn?blogId=ntkor&amp;amp;logNo=220781960501&quot;&gt;카카오톡 로그인&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.naver.com/PostView.nhn?blogId=ntkor&amp;amp;logNo=220781133593&amp;amp;categoryNo=20&amp;amp;parentCategoryNo=0&amp;amp;viewDate=&amp;amp;currentPage=6&amp;amp;postListTopCurrentPage=&amp;amp;from=postList&amp;amp;userTopListOpen=true&amp;amp;userTopListCount=5&amp;amp;userTopListManageOpen=false&amp;amp;userTopListCurrentPage=6&quot;&gt;페이스북 로그인&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.daum.net/hivaless/6609195&quot;&gt;검색어 자동완성 알고리즘&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 01 Feb 2017 00:00:00 +0900</pubDate>
+        <link>http://krgoodnews.github.io/%EC%95%B1-%EA%B0%9C%EB%B0%9C-%EC%A4%80%EB%B9%84%EB%AC%BC/</link>
+        <guid isPermaLink="true">http://krgoodnews.github.io/%EC%95%B1-%EA%B0%9C%EB%B0%9C-%EC%A4%80%EB%B9%84%EB%AC%BC/</guid>
+      </item>
+    
+  </channel>
+</rss>
