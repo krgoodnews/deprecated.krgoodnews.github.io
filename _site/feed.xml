@@ -7,6 +7,36 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>기획자로서의 2박 3일을 준비하다</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/unithonCafeLogo.png&quot; alt=&quot;유니톤 카페 로고&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;유니톤이라는 해커톤에 참여신청을 한지도 2주가량 지난 것 같다. 대학생을 위한 해커톤이라지만 대학생이 아니더라도 특정 동아리 회원이면 참여할 수 있다고 한다. 참여 1지망에 iOS, 2지망에 기획분야를 써냈다. 사실 할 줄 아는거라곤 iOS뿐인데, 둘 다 iOS 쓰기에는 조금 심심할 것 같았다. ‘설마 iOS 개발자가 얼마나 없을텐데 내가 튕기겠어’라고 생각해서 그런 것도 있는데, 그것이 실제로 일어났다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;나: iOS 개발자가 많아서 내가 밀린건가요?
+담당자: 그렇다고 보시면 될 것 같습니다.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;예상했던 시나리오는 아니지만, 어찌됐건 재밌어보이니까 도전해봐야겠다. 다행인 점이라면, 예전에 떠올리던 아이디어들을 메모해서 가지고 있다. 이걸 잘 활용해보아야겠다.&lt;/p&gt;
+
+&lt;h4 id=&quot;좋은-기획자가-되기-위해-읽어볼-글&quot;&gt;좋은 기획자가 되기 위해 읽어볼 글&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://brunch.co.kr/@shootst/17&quot;&gt;지극히 개인적인 앱 기획 프로세스&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/aksmj/ss-47849372&quot;&gt;혼자서 모바일 앱 기획하기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;유니톤-관련-링크&quot;&gt;유니톤 관련 링크&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cafe.naver.com/unithon4th&quot;&gt;유니톤 네이버카페&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/unithonWithU&quot;&gt;유니톤 페이스북&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 02 Feb 2017 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/%EA%B8%B0%ED%9A%8D%EC%9E%90%EB%A1%9C%EC%84%9C%EC%9D%98-2%EB%B0%95-3%EC%9D%BC%EC%9D%84-%EC%A4%80%EB%B9%84%ED%95%98%EB%8B%A4/</link>
+        <guid isPermaLink="true">http://localhost:4000/%EA%B8%B0%ED%9A%8D%EC%9E%90%EB%A1%9C%EC%84%9C%EC%9D%98-2%EB%B0%95-3%EC%9D%BC%EC%9D%84-%EC%A4%80%EB%B9%84%ED%95%98%EB%8B%A4/</guid>
+      </item>
+    
+      <item>
         <title>앱 개발 준비물</title>
         <description>&lt;h2 id=&quot;앱-설명&quot;&gt;앱 설명&lt;/h2&gt;
 &lt;ul&gt;
@@ -16,7 +46,9 @@
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;라이브러리&quot;&gt;라이브러리&lt;/h2&gt;
+
 &lt;h3 id=&quot;ui&quot;&gt;UI&lt;/h3&gt;
+
 &lt;ul&gt;
   &lt;li&gt;A+ ~ F 등급 매길 때 사용할 Circular slider
     &lt;ul&gt;
