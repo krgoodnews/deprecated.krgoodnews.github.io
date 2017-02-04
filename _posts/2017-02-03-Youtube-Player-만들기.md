@@ -12,7 +12,8 @@ desc: iOS 앱에서 유투브 영상을 틀어보자.
 라이브러리를 사용하고 싶지 않아서 [BodNuk의 튜토리얼](https://www.youtube.com/watch?v=rVcOY_qpMMg)도 보고 해봤다. 하지만 테두리쪽에서 뭔가 이상한게 있어서, 부족한 시간 때문에 어쩔 수 없이 라이브러리를 사용하게 된다.
 
 ----------------------------------------
-####사용 라이브러리: [youtube ios player helper](https://github.com/youtube/youtube-ios-player-helper)
+
+#### 사용 라이브러리: [youtube ios player helper](https://github.com/youtube/youtube-ios-player-helper)
 1. pod "youtube-ios-player-helper", "~> 0.1.4"
 2. 스토리보드에 UIView 생성 후 YTPlayView로 클래스 변경, viewController와 연동
 	* 혹은 코드로 UIView 생성
