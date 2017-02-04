@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    <title>기획자로서의 2박 3일을 준비하다 – 비밀을 제외한 모든 것 – 공유할 수 있는 모든 것을 공유하겠다.</title>
+    <title>Youtube Player 만들기 – 비밀을 제외한 모든 것 – 공유할 수 있는 모든 것을 공유하겠다.</title>
 
     <meta name="author" content="비밀을 제외한 모든 것" />
     <meta name="description" content="공유할 수 있는 모든 것을 공유하겠다.">
@@ -40,44 +40,45 @@
 
       <div id="main" role="main" class="container">
         <article class="post">
-  <h1>기획자로서의 2박 3일을 준비하다</h1>
-  <a href="http://cafe.naver.com/unithon4th" class="large-link" target="_blank">View Project Site <i class="fa fa-external-link"></i></a> 
-  <div class="date">Posted February  2, 2017</div>
+  <h1>Youtube Player 만들기</h1>
+  <a href="" class="large-link" target="_blank">View Project Site <i class="fa fa-external-link"></i></a> 
+  <div class="date">Posted February  3, 2017</div>
 
 
   <div class="entry">
-    <p><img src="/images/unithonCafeLogo.png" alt="유니톤 카페 로고" /></p>
+    <p>서버에서 유투브 URL을 전달받으면 동영상에 재생해야한다.</p>
 
-<p>유니톤이라는 해커톤에 참여신청을 한지도 2주가량 지난 것 같다. 대학생을 위한 해커톤이라지만 대학생이 아니더라도 특정 동아리 회원이면 참여할 수 있다고 한다. 참여 1지망에 iOS, 2지망에 기획분야를 써냈다. 사실 할 줄 아는거라곤 iOS뿐인데, 둘 다 iOS 쓰기에는 조금 심심할 것 같았다. ‘설마 iOS 개발자가 얼마나 없을텐데 내가 튕기겠어’라고 생각해서 그런 것도 있는데, 그것이 실제로 일어났다.</p>
+<p>당연히 <code>AVFoundation</code>을 사용하면 될 줄 알았다. 하지만 안됐다. 동영상 파일의 URL이 아니면 안된다고 한다.</p>
 
-<blockquote>
-  <p>나: iOS 개발자가 많아서 내가 밀린건가요?</p>
-</blockquote>
-
-<blockquote>
-  <p>담당자: 그렇다고 보시면 될 것 같습니다.</p>
-</blockquote>
-
-<p>예상했던 시나리오는 아니지만, 어찌됐건 재밌어보이니까 도전해봐야겠다. 다행인 점이라면, 예전에 떠올리던 아이디어들을 메모해서 가지고 있다. 이걸 잘 활용해보아야겠다.</p>
+<p>라이브러리를 사용하고 싶지 않아서 <a href="https://www.youtube.com/watch?v=rVcOY_qpMMg">BodNuk의 튜토리얼</a>도 보고 해봤다. 하지만 테두리쪽에서 뭔가 이상한게 있어서, 부족한 시간 때문에 어쩔 수 없이 라이브러리를 사용하게 된다.</p>
 
 <hr />
+<p>####사용 라이브러리: <a href="https://github.com/youtube/youtube-ios-player-helper">youtube ios player helper</a></p>
+<ol>
+  <li>pod “youtube-ios-player-helper”, “~&gt; 0.1.4”</li>
+  <li>스토리보드에 UIView 생성 후 YTPlayView로 클래스 변경, viewController와 연동
+    <ul>
+      <li>혹은 코드로 UIView 생성</li>
+    </ul>
+  </li>
+  <li><code>youtubeView.load(withVideoId: "S8i9LpTWVts")</code> 하면 끝</li>
+</ol>
 
-<pre><code>[2017.02.02 추가]
-결국 개발자로 팀 빌딩이 되었다. 뭐지.
+<ul>
+  <li>
+    <p><a href="https://developers.google.com/youtube/player_parameters">각종 파라미터</a>를 이용해서 뷰를 원하는대로 커스터마이징 할 수 있다.</p>
+
+    <pre><code>  youtubeView.load(withVideoId: "S8i9LpTWVts", playerVars:
+        ["fs": 0,   // 동영상 최대화버튼 표시안함
+              "playsinline": 1,  // 동영상 재생시 별도 컨트롤러 생성하지 않음
+              "rel": 0,  // 동영상 종료후 관련 영상 표시하지 않음
+              "color": "white"
+  //           "modestbranding": 1 // 유투브 로고를 숨긴다는데 안숨겨지는것같다.
+  //           "showinfo": 0
+          ])
 </code></pre>
-
-<h4 id="좋은-기획자가-되기-위해-읽어볼-글">좋은 기획자가 되기 위해 읽어볼 글</h4>
-<ul>
-  <li><a href="https://brunch.co.kr/@shootst/17">지극히 개인적인 앱 기획 프로세스</a></li>
-  <li><a href="http://www.slideshare.net/aksmj/ss-47849372">혼자서 모바일 앱 기획하기</a></li>
+  </li>
 </ul>
-
-<h4 id="유니톤-관련-링크">유니톤 관련 링크</h4>
-<ul>
-  <li><a href="http://cafe.naver.com/unithon4th">유니톤 네이버카페</a></li>
-  <li><a href="https://www.facebook.com/unithonWithU">유니톤 페이스북</a></li>
-</ul>
-
 
   </div>
 
